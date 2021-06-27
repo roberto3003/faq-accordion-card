@@ -8,21 +8,9 @@
   /* Remove default margin */
   body,
   h1,
-  h2,
-  h3,
-  h4,
   p,
-  figure,
-  blockquote,
-  dl,
-  dd {
+   {
 	margin: 0;
-  }
-
-  /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-  ul[role='list'],
-  ol[role='list'] {
-	list-style: none;
   }
 
   /* Set core root defaults */
@@ -31,7 +19,7 @@
   }
 
   :root {
-	--html-color: dodgerblue;
+	--html-color: coral;
 	--main-bg-color: darkslategrey;
 	--text-dark: black;
 	--text-light: white;
@@ -48,15 +36,6 @@
     --radius: 1em;
 	--bg-image: linear-gradient(179deg, violet 0%, #073AFFFF 100%),radial-gradient(75% 75% at 50% 50%, royalblue 0%, #073AFFFF 100%);
   }
-
-  /* Inherit fonts for inputs and buttons */
-  input,
-  button,
-  textarea,
-  select {
-	font: inherit;
-  }
-
 
   /* Set core body defaults */
   html {
@@ -135,23 +114,6 @@
   transform: translate(10%, -145%);
 }
 
-.link  {
-  position: absolute;
-  cursor:pointer;
-  background-color: var(--accent);
-  text-decoration: none;
-  padding: calc(var(--padding)/2) var(--padding); 
-  border-radius: calc(var(--radius)/2);
-}
-
-.link:hover {
-  shadow: var(--shadow-deep);
-}
-
-  .center {
-	text-align: center;
-  }
-
   .padding {
 	padding: var(--padding);
   }
@@ -187,13 +149,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.card {
-  display: grid;
-  padding: calc(var(--padding)*2);
-  border-radius: var(--radius);
-  overflow: hidden;
 }
 
   /* A elements that don't have a class get default styles */
