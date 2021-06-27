@@ -117,11 +117,12 @@
 	background-position: 50% 70%;
 }
 
-.hero {
-  margin-block-start: auto;
-  margin-block-end: auto;
+.img0 {
+  width: 100%;
+  height: auto;
+  transform: translate(0, 90%);
+  position: relative;
 }
-
 
 .img1 {
   width: 100%;
