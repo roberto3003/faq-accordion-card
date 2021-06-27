@@ -31,14 +31,14 @@
   }
 
   :root {
-	--html-color: dodgerblue;
+	--html-color: coral;
 	--main-bg-color: darkslategrey;
 	--text-dark: black;
 	--text-light: white;
 	--dark: teal;
 	--neutral: lightseagreen;
     --light: white;
-	--accent: darkorchid;
+	--accent: coral;
 	--grey: hsl(227, 10%, 46%);
 	--mbe: 1em;
 	--padding: 1em;
@@ -122,6 +122,10 @@
   margin-block-end: auto;
 }
 
+::marker {
+  color: var(--accent);
+  font-size: 1.5em;
+}
 
 .img1 {
   width: 100%;
