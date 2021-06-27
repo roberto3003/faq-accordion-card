@@ -83,9 +83,10 @@
 	font-size:clamp(2.5rem, 5vw,  80px);
   }
 
-  article {
-	min-height: 66vh;
+  section {
+	padding-block-end: var(--padding);
   }
+
 
   summary {
 	font-weight:bold;
@@ -114,6 +115,23 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 70%;
+}
+
+.hero {
+  margin-block-start: auto;
+  margin-block-end: auto;
+}
+
+
+.img1 {
+  width: 100%;
+  height: auto;
+}
+
+.img2 {
+  width: 30%;
+  height: auto;
+  transform: translate(10%, -145%);
 }
 
 .link  {
